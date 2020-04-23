@@ -1,0 +1,100 @@
+{
+  "items": [
+    {
+      "sys": {
+        "id": "1"
+      },
+      "fields": {
+        "title": "Drag",
+        "price": 1099.99,
+        "image": {
+          "fields": {
+            "file": {
+              "url": "img/bike-1.jpg"
+            }
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "id": "2"
+      },
+      "fields": {
+        "title": "Daga",
+        "price": 1379.99,
+        "image": {
+          "fields": {
+            "file": {
+              "url": "img/bike-2.jpg"
+            }
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "id": "3"
+      },
+      "fields": {
+        "title": "Victor",
+        "price": 1099.99,
+        "image": {
+          "fields": {
+            "file": {
+              "url": "img/bike-3.jpg"
+            }
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "id": "4"
+      },
+      "fields": {
+        "title": "Mech",
+        "price": 1099.99,
+        "image": {
+          "fields": {
+            "file": {
+              "url": "img/bike-4.jpg"
+            }
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "id": "5"
+      },
+      "fields": {
+        "title": "Natur",
+        "price": 1189.99,
+        "image": {
+          "fields": {
+            "file": {
+              "url": "img/bike-5.jpg"
+            }
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "id": "6"
+      },
+      "fields": {
+        "title": "Loo",
+        "price": 1259.99,
+        "image": {
+          "fields": {
+            "file": {
+              "url": "img/bike-6.jpg"
+            }
+          }
+        }
+      }
+    }
+  ]
+}

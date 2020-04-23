@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BIKE SHOP</title>
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
+      integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
+      crossorigin="anonymous"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cabin+Sketch&family=Open+Sans:ital,wght@0,400;0,600;1,300&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="normalize.css" />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!--navbar-->
+    <nav class="navbar">
+      <div class="navbar-center">
+        <div class="burger-icon"><i class="fas fa-bars"></i> MENU</div>
+        <div class="logo logo-show">
+          <span>B&<span>B</span> </span>
+        </div>
+        <div class="navbar-list nav-items navbar-hide">
+          <ul class="main-nav">
+            <li class="list-item"><a href="#">Strona główna</a></li>
+            <li class="list-item"><a href="#">Produkty</a></li>
+            <li class="list-item"><a href="#">Blog</a></li>
+            <li class="list-item"><a href="#">O nas</a></li>
+            <li class="list-item"><a href="#">Kontakt</a></li>
+          </ul>
+        </div>
+        <div class="navbar-basket">
+          <div class="navbar-basket-value">0</div>
+          <span class="navbar-basket-icon"
+            >Koszyk<i class="fas fa-shopping-basket"></i>
+          </span>
+        </div>
+      </div>
+    </nav>
+    <!--end od navbar-->
+    <!--main content-->
+    <main>
+      <article>
+        <!--list of products-->
+        <section>
+          <div class="products-items-list"></div>
+        </section>
+        <!--end of list of products-->
+      </article>
+      <!--basket-->
+      <article>
+        <div class="basket-overlay">
+          <div class="basket">
+            <button class="basket-btn-back-to-shop">
+              <i class="fas fa-arrow-left"></i>Wróć do zakupów
+            </button>
+            <h1>Twoje zakupy <i class="fas fa-shopping-basket"></i></h1>
+            <div class="basket-summary">
+              <div class="baskte-summary-total-price">0 zł</div>
+            </div>
+          </div>
+        </div>
+      </article>
+      <!--end of basket-->
+    </main>
+
+    <script src="main.js"></script>
+  </body>
+</html>

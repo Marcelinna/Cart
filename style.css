@@ -101,7 +101,8 @@ section .products-items-list .product-single-item h2 {
   text-transform: uppercase;
   letter-spacing: 1px;
   margin-top: 15px;
-  margin-bottom: 15px;
+  margin-bottom: 7px;
+  font-weight: 400;
 }
 section .products-items-list .product-single-item h3 {
   text-align: center;
